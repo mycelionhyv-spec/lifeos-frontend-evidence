@@ -1,0 +1,157 @@
+{
+  "settings": {
+    "userName": "MyHYv User",
+    "weekStart": "Monday",
+    "currency": "AUD",
+    "timezone": "Australia/Perth",
+    "simulateFailure": false
+  },
+  "tasks": [
+    {
+      "id": "TSK-1",
+      "name": "Finalise MyHYv Nexus Launch",
+      "description": "Review copy",
+      "lifeArea": "Work",
+      "project": "PROJ-1",
+      "priority": "High",
+      "status": "Planned",
+      "startDate": "2026-09-17",
+      "dueDate": "2026-09-21",
+      "recurring": false,
+      "estTime": 2,
+      "actualTime": null,
+      "created": "2026-09-17T09:36:22",
+      "completed": ""
+    },
+    {
+      "id": "TSK-2",
+      "name": "Pay Utility Bill",
+      "description": "",
+      "lifeArea": "Finance",
+      "project": "",
+      "priority": "High",
+      "status": "Inbox",
+      "startDate": "2026-09-16",
+      "dueDate": "2026-09-16",
+      "recurring": false,
+      "estTime": 0.5,
+      "actualTime": null,
+      "created": "2026-09-16T09:36:22",
+      "completed": ""
+    },
+    {
+      "id": "TSK-3",
+      "name": "Weekly Review",
+      "description": "",
+      "lifeArea": "Personal",
+      "project": "",
+      "priority": "Medium",
+      "status": "Planned",
+      "startDate": "2026-09-17",
+      "dueDate": "2026-09-22",
+      "recurring": false,
+      "estTime": 1,
+      "actualTime": null,
+      "created": "2026-09-17T09:36:22",
+      "completed": ""
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOL-1",
+      "name": "Ship LifeOS V1",
+      "lifeArea": "Work",
+      "why": "Give the workbook a face people will actually use.",
+      "startDate": "2026-09-17",
+      "targetDate": "2026-10-05",
+      "status": "Active",
+      "targetValue": 100,
+      "currentValue": 42,
+      "progress": 42,
+      "linkedProject": "PROJ-1",
+      "nextAction": "Lock Today view and task write path"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN-1",
+      "date": "2026-09-17",
+      "description": "Salary",
+      "category": "Income",
+      "type": "Income",
+      "account": "Main Checking",
+      "amount": 5000,
+      "fixedVariable": "Fixed",
+      "notes": ""
+    },
+    {
+      "id": "TXN-2",
+      "date": "2026-09-16",
+      "description": "Groceries",
+      "category": "Food",
+      "type": "Expense",
+      "account": "Credit Card",
+      "amount": 150,
+      "fixedVariable": "Variable",
+      "notes": ""
+    },
+    {
+      "id": "TXN-3",
+      "date": "2026-09-20",
+      "description": "Test fuel",
+      "category": "Transport",
+      "type": "Expense",
+      "account": "Cash",
+      "amount": 25,
+      "fixedVariable": "Variable",
+      "notes": ""
+    }
+  ],
+  "habits": [
+    {
+      "id": "HAB-1",
+      "name": "Morning walk",
+      "lifeArea": "Health",
+      "active": true,
+      "targetPerWeek": 5
+    },
+    {
+      "id": "HAB-2",
+      "name": "Deep work block",
+      "lifeArea": "Work",
+      "active": true,
+      "targetPerWeek": 4
+    }
+  ],
+  "habitLogs": [],
+  "mood": [
+    {
+      "id": "MOO-1",
+      "date": "2026-09-16",
+      "mood": 7,
+      "energy": 6,
+      "stress": 5,
+      "focus": 8,
+      "notes": ""
+    },
+    {
+      "id": "MOO-2",
+      "date": "2026-09-17",
+      "mood": 8,
+      "energy": 8,
+      "stress": 4,
+      "focus": 9,
+      "notes": ""
+    },
+    {
+      "id": "MOO-3",
+      "date": "2026-09-18",
+      "mood": 9,
+      "energy": 7,
+      "stress": 3,
+      "focus": 8,
+      "notes": ""
+    }
+  ],
+  "sleep": []
+}
